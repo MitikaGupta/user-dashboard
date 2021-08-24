@@ -1,8 +1,13 @@
 @media only screen and (max-width: 450px) {
     .margTd {
       margin-left: 15%;
+	  
     }
-  }
+	.noBor{
+        border:0px solid !important;
+	}
+	
+}
 
 @media only screen and (min-width: 600px) {
     .margTd {

@@ -44,11 +44,11 @@
           <template v-slot:body="props">
             <tbody>
               <tr v-for="(item,i) in props.items" :key="i">
-                <td @click="userClick(item)" class="d-block d-md-table-cell">
+                <td @click="userClick(item)" class="d-block d-sm-table-cell noBor">
                   <img src="../assets/dp.png"/> 
                   {{item.name}}
                 </td>
-                <td @click="userClick(item)" class="d-block d-md-table-cell margTd">
+                <td @click="userClick(item)" class="d-block d-sm-table-cell margTd">
                   <a @click.stop="`mailto:${item.email}`" :href="`mailto:${item.email}`"> {{item.email}} </a>
                 </td>
               </tr>
